@@ -1,0 +1,30 @@
+{
+  "name": "pi-progress-tracker",
+  "version": "1.0.0",
+  "description": "Intent declaration and progress tracking for Pi coding agent. Enforces calling update_progress before tool use and at regular intervals.",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "progress-tracker",
+    "intent-declaration",
+    "coding-agent"
+  ],
+  "license": "MIT",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gucvii/pi-progress-tracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Gucvii/pi-progress-tracker/issues"
+  },
+  "homepage": "https://github.com/Gucvii/pi-progress-tracker#readme",
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*",
+    "typebox": "*"
+  },
+  "pi": {
+    "extensions": ["./extensions"]
+  }
+}
