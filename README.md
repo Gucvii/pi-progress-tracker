@@ -12,7 +12,7 @@ Also provides a `/progress` command to review the full timeline.
 ## Installation
 
 ```bash
-pi install git:github.com:Gucvii/pi-progress-tracker.git
+pi install git:github.com/Gucvii/pi-progress-tracker.git
 ```
 
 Or via npm (once published):
@@ -83,7 +83,7 @@ Planned: reading config from `settings.json` via a `progressTracker` key.
 ## Development
 
 ```bash
-git clone git@github.com:Gucvii/pi-progress-tracker.git
+git clone https://github.com/Gucvii/pi-progress-tracker.git
 cd pi-progress-tracker
 # Test locally
 pi -e ./extensions/index.ts
