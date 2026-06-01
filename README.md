@@ -33,6 +33,8 @@ The `update_progress` tool has these parameters:
 | `situation`    | no       | Current state of affairs (what was just discovered) |
 | `progress_note`| no       | Brief note or blocker detail |
 
+<img width="1100" height="232" alt="截屏2026-06-01 11 08 43" src="https://github.com/user-attachments/assets/b00dcfc3-6e5e-47dd-a61f-e52e17e03c0d" />
+
 ### Enforcement rules
 
 - **First call required** before any other tool can execute
